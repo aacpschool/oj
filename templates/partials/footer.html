@@ -54,13 +54,6 @@
               {{ html|safe }}
             </li>
             {%- endfor -%}
-            <!-- 性能统计 -->
-            <li class="footer__extra-link-item">
-              Prepare {{ handler.args.__prepareDone - handler.args.__prepare }}ms
-            </li>
-            <li class="footer__extra-link-item">
-              Method {{ handler.args.__methodDone - handler.args.__method }}ms
-            </li>
             <li class="footer__extra-link-item">
               Powered by <a href="https://hydro.js.org">Hydro</a>
             </li>
