@@ -1,0 +1,72 @@
+<div class="footer">
+  <div class="row">
+    <div class="columns">
+      <div class="footer__extra-link clearfix">
+        <div class="footer__extra-left">
+          <ol class="clearfix">
+            <!-- 語言 -->
+            <li class="footer__extra-link-item nojs--hide" data-dropdown-target="#menu-footer-lang">
+              <span><span class="icon icon-global"></span>
+                Language <span class="icon icon-expand_less"></span>
+              </span>
+              <ol class="dropdown-target menu" id="menu-footer-lang">
+                {%- for k, v in model.setting.SETTINGS_BY_KEY['viewLang'].range -%}
+                {%- if k not in ['zh', 'ko'] -%}
+                <li class="menu__item">
+                  <a class="menu__link" href="{{ url('switch_language', lang=k) }}">
+                    {{ v }}
+                  </a>
+                </li>
+                {%- endif -%}
+                {%- endfor -%}
+              </ol>
+            </li>
+            <!-- 主題 -->
+            <li class="footer__extra-link-item nojs--hide" data-dropdown-target="#menu-footer-theme">
+              <span><span class="icon icon-global"></span>
+                {{ _('Theme') }}
+                <span class="icon icon-expand_less"></span>
+              </span>
+              <ol class="dropdown-target menu" id="menu-footer-theme">
+                <li class="menu__item">
+                  <a class="menu__link" href="{{ url('set_theme', theme='light') }}">
+                    {{ _('Light') }}
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="{{ url('set_theme', theme='dark') }}">
+                    {{ _('Dark') }}
+                  </a>
+                </li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__extra-right">
+          <ol class="clearfix">
+            {%- for html in (handler.domain.ui.footer_extra_html|default('')).split('\n') -%}
+            <li class="footer__extra-link-item">
+              {{ html|safe }}
+            </li>
+            {%- endfor -%}
+            {%- for html in (model.system.get('ui-default.footer_extra_html')|default('')).split('\n') -%}
+            <li class="footer__extra-link-item">
+              {{ html|safe }}
+            </li>
+            {%- endfor -%}
+            <!-- 性能统计 -->
+            <li class="footer__extra-link-item">
+              Prepare {{ handler.args.__prepareDone - handler.args.__prepare }}ms
+            </li>
+            <li class="footer__extra-link-item">
+              Method {{ handler.args.__methodDone - handler.args.__method }}ms
+            </li>
+            <li class="footer__extra-link-item">
+              Powered by <a href="https://hydro.js.org">Hydro</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
