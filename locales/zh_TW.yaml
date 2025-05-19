@@ -1,5 +1,5 @@
 __langname: 繁體中文
-'{0} comments': '{0} 條評論'
+'{0} comments': '{0} 條留言'
 '{0} discussions': '{0} 條討論'
 '{0} limit exceeded (limit: {2} operations in {1} seconds).': '{0} 超過頻率限制。限制：{1} 秒內最多 {2} 次操作。'
 '{0} solutions': '{0} 條題解'
@@ -7,9 +7,9 @@ __langname: 繁體中文
 '{0}: Permissions': '{0}: 許可權'
 '{0}: Roles': '{0}: 角色'
 '{0}: Users': '{0}: 使用者'
-'# My Submissions': '我的提交數'
-'# Submissions': '提交數'
-'↓ # Comments': '↓ 評論數'
+'# My Submissions': '我的提交次數'
+'# Submissions': '提交次數'
+'↓ # Comments': '↓ 留言數'
 '↓ # Enrollees': '↓ 參與人數'
 '↓ # Likes': '↓ 贊數'
 '↓ # Stars': '↓ 收藏數'
@@ -72,8 +72,8 @@ CLOSE: 關閉
 Code blocks: 程式碼區塊
 Code language: 程式碼語言
 Code: 程式碼
-Comment: 評論
-Comments: 評論
+Comment: 留言
+Comments: 留言
 CommonMark Syntax: CommonMark 語法
 Confirm deleting the selected roles?: 你確定刪除所選角色嗎？
 Confirm removing the selected users?: 你確定將所選使用者移除嗎？
@@ -548,8 +548,8 @@ What is domain?: 什麼是域?
 What's domain?: 什麼是域？
 Whether to show tags in the problem list.: 是否在題目列表中顯示題目的標籤。
 Will be used as the domain icon.: 將被用作圖示。
-Without slashes or backslashes: 不含斜槓和反斜槓
-Write Your Comment: 發表你的評論
+Without slashes or backslashes: 不含斜線和反斜線
+Write Your Comment: 發表你的留言
 Write Your Solution: 發表你的題解
 You can create your own training plans and share them with others.: 你可以建立你自己的訓練計劃並且與他人分享。
 You cannot submit for this problem because the homework's deadline is due.: 作業已到達截止時間，你無法提交了。
