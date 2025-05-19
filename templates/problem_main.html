@@ -1,0 +1,25 @@
+{% import "components/record.html" as record with context %}
+{% import "components/problem.html" as problem with context %}
+{% extends "layout/basic.html" %}
+{% block content %}
+<div class="row">
+    <div class="medium-12 columns">
+        <div class="section display-mode">
+            <div class="section__body no-padding">
+                <form method="get" id="searchForm" action="{{ url('problem_main') }}">
+                    <div class="search">
+                        <input name="q" type="text" value="{{ qs }}" placeholder="{{ _('Search') }}">
+                        {% include "partials/problem_stat.html" %}
+                        <button type="submit">
+                            <span class="icon icon-search"></span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="section__body no-padding">
+                {% include "partials/problem_list.html" %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
