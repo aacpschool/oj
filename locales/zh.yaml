@@ -26,9 +26,9 @@ __langname: 繁體中文
 'Copy failed :(': '複製失敗 :('
 'Current dataset: {0}': '當前測試資料: {0}'
 'Discussion: Terms Of Service': 討論區服務條款
-'Drag and drop testcases here:': '拖拽測試點到此處：'
-'Enter a new name for the file: ': 請輸入新的檔案名：
-'Failed to get credential: {0}': '獲取認證數據失敗: {0}'
+'Drag and drop testcases here:': '拖拽測試資料到此處：'
+'Enter a new name for the file: ': 請輸入新的檔案名稱：
+'Failed to get credential: {0}': '獲取認證測資失敗: {0}'
 'File IO: {0}': 檔案IO：{0}
 'File upload failed: {0}': 檔案上傳失敗：{0}
 'Format: category 1, category 2, ..., category n': 格式：分類1, 分類2, ..., 分類n
@@ -55,8 +55,8 @@ __langname: 繁體中文
 (None): (無)
 (Not changed): 未更改
 6-Digit Code: 6-Digit Code
-A data generator is a program that generates testdata. It should output result to stdout.: 數據生成器是一個生成測試資料的程式。它應該將結果輸出到標準輸出。
-A standard program is a program that solves the problem. It should output answer to stdout.: 標準程式是一個解決問題的程式。它應該將答案輸出到標準輸出。
+A data generator is a program that generates testdata. It should output result to stdout.: 測資生成器是一個生成測試資料的程式。它應該將結果輸出到標準輸出。
+A standard program is a program that solves the problem. It should output answer to stdout.: 標準程式碼是一個解決問題的程式。它應該將答案輸出到標準輸出。
 Aborted: 已放棄
 About {0}: 關於 {0}
 About Markdown: 關於 Markdown
@@ -76,12 +76,12 @@ Active Sessions: 活動會話
 Add Authenticator: 添加認證器
 Add File: 添加檔案
 Add module: 添加模塊
-Add new data: 添加新數據
+Add new data: 添加新測資
 Add new subtask: 添加新子任務
 Add prefix: 添加前綴
 Add prefix/suffix: 添加前綴/後綴
 Add suffix: 添加後綴
-Add testcase: 添加測試點
+Add testcase: 添加測試資料
 Add User: 添加用戶
 Add: 添加
 additional_file: 附加檔案
@@ -102,14 +102,14 @@ An example of dataset: 測試資料集的一個例子
 Any user is allowed to join this domain with an invitation code: 任意用戶都可以通過邀請碼加入此域
 Any user is allowed to join this domain: 任意用戶都可以加入此域
 API: API
-Are you sure to rename the following file?: 確認對重命名以下檔案？
+Are you sure to rename the following file?: 確認重命名以下檔案？
 Are you sure you want to delete this subtask?: 確認刪除此子任務？
 Argument {0} is invalid.: 非法的參數 {0} 。
 Arguments: 參數
 Assign User or Group: 分配給用戶或小組
 Assign: 分配給
 Assignment: 作業
-At least 4 characters: 至少 4 個字符
+At least 4 characters: 至少 4 個字元
 Attend Contest: 參加比賽
 Attend contests: 參加比賽
 Attended: 已參加
@@ -123,7 +123,7 @@ Auto hide problems during the contest: 在比賽過程中自動隱藏題目
 Auto Read Tasks: 自動識別任務
 Awards: 獎項
 Balloon Status: 氣球狀態
-Basic Info: 基礎信息
+Basic Info: 基礎資訊
 Basic: 基礎
 Batch replacement: 批量替換
 Be Copied: 被複製
@@ -144,7 +144,7 @@ By Language: 由語言
 By Problem: 由題目
 By signing up a {0} universal account, you can submit code and join discussions in all online judging services provided by us.: 註冊一個 {0} 通用賬戶，你就可以在我們提供的所有在線評測服務上提交程式碼、參與討論。
 By Status: 由狀態
-By Username / UID: 由用戶名或 UID
+By Username / UID: 由用戶名稱或 UID
 Calendar View: 日曆視圖
 Calendar: 日曆
 Can be Extended For: 可延期
@@ -221,7 +221,7 @@ Copy Selected: 複製選中
 Copy WeChat Account: 複製微信號
 Copy: 複製
 Copyright Complaint: 版權申訴
-CPU Info: CPU信息
+CPU Info: CPU 資訊
 Create a contest: 建立一個比賽
 Create a Discussion: 建立一個討論
 Create a Post: 建立一個部落格
@@ -245,7 +245,7 @@ Create Training Plan: 建立訓練計劃
 Create training plans: 建立訓練計劃
 Create: 建立
 Created By: 建立人
-Current dataset comes from: 當前數據集來自
+Current dataset comes from: 當前測資集來自
 current domain: 當前域
 Current Email: 當前電子郵件
 Current Location: 當前位置
@@ -255,10 +255,10 @@ Current Status: 當前狀態
 currently offline: 目前離線
 Daily update check: 每日自動檢查更新
 Dark: 暗色
-Data Generator: 數據生成器
-Data of Problem {0} not found.: 題目 {0} 的數據缺失。
-Data of problem {1} not found.: 題目 {1} 的數據未找到。
-Data of record {0} not found.: 記錄 {0} 的數據未找到。
+Data Generator: 測資生成器
+Data of Problem {0} not found.: 題目 {0} 的測資缺失。
+Data of problem {1} not found.: 題目 {1} 的測資未找到。
+Data of record {0} not found.: 記錄 {0} 的測資未找到。
 Dataset Format: 測試資料集格式
 Dataset: 測試資料
 Day: 日
@@ -302,9 +302,9 @@ discussion_node: 討論
 Discussion: 討論
 Discussions: 討論
 Dismiss: 忽略
-Display name {1} you want to set is used by others.: 你想要設定的顯示名 {1} 已經被其他人使用了。
-Display Name: 顯示名
-display_name: 顯示名
+Display name {1} you want to set is used by others.: 你想要設定的顯示名稱 {1} 已經被其他人使用了。
+Display Name: 顯示名稱
+display_name: 顯示名稱
 Do not discuss solutions otherwise you will be regarded as cheating and then lose qualifications.: 請勿討論解法，否則以作弊論處並且將失去參賽資格。
 Document {2} not found.: 文檔 {2} 不存在。
 Domain {0} already exists.: 域 {0} 已經存在。
@@ -327,7 +327,7 @@ Don't have an account?: 還沒有賬戶？
 Don't show again: 不再顯示
 Done: 已結束
 Download All: 下載全部
-Download Dataset: 下載數據集
+Download Dataset: 下載資料集
 Download Selected: 下載選中
 Download: 下載
 Downvote: 差評
@@ -355,7 +355,7 @@ Edit problem solution replies: 修改題解的回復
 Edit problem solutions: 修改題解
 Edit Problem: 編輯題目
 Edit problems: 修改題目
-Edit Profile: 編輯個人信息
+Edit Profile: 編輯個人資訊
 Edit training plans: 修改訓練計劃
 Edit: 編輯
 Edited at: 修改於
@@ -380,10 +380,10 @@ Export as {0}: 導出為 {0}
 Extension (days): 最長延期 (日)
 Extension Score Penalty: 延期提交扣分規則
 Extra Files Config: 額外檔案設定
-Failed to fetch registration data.: 獲取註冊數據失敗。
+Failed to fetch registration data.: 獲取註冊資訊失敗。
 Failed to join the domain. You are already a member.: 加入域失敗，你已是該域的成員。
-Failed to parse subtask.: 無法解析子任務信息。
-Failed to parse testcase.: 無法解析測試點信息。
+Failed to parse subtask.: 無法解析子任務資訊。
+Failed to parse testcase.: 無法解析測試資料的資訊。
 Feedback: 反饋
 Field {0} or {1} validation failed.: 字段 {0} 或 {1} 驗證失敗。
 Field {0} validation failed.: 字段 {0} 驗證失敗。
@@ -393,7 +393,7 @@ File saved.: 檔案已成功保存。
 file too large: 檔案過大
 File uploaded successfully.: 上傳檔案成功
 File: 檔案
-Filename: 檔案名
+Filename: 檔案名稱
 Files: 檔案
 Filter: 過濾
 First of Contest: 全場一血 
@@ -401,10 +401,10 @@ First of Problem: 題目一血
 fontFamily: 字體
 Footer: 頁腳
 Footnote: 腳注
-Forgot Password and/or Username: 忘記密碼和/或用戶名
-Forgot password or username?: 忘記密碼或者用戶名？
+Forgot Password and/or Username: 忘記密碼和/或用戶名稱
+Forgot password or username?: 忘記密碼或者用戶名稱？
 Formula blocks: 公式區塊
-Freeze scoreboard with N minutes remaining: 在賽事剩餘N分鐘時封榜
+Freeze scoreboard with N minutes remaining: 在賽事剩餘 N 分鐘時封榜
 fs_upload: 上傳檔案
 Gender Visibility: 性別可見性
 Gender: 性別
@@ -431,8 +431,8 @@ Hint::icon::difficulty: Hydro 中題目的難度，根據提交次數、通過�
 Hint::icon::switch_account: 作為超級管理員，你可以直接切換到其他人的賬戶。
 Hint::icon::testdata: <a href="https://hydro.js.org/docs/user/testdata/" target="_blank">請參照文檔說明</a>
 Hint::page::main: 歡迎來到 Hydro！ 你可在右上角註冊或登錄。此類提示僅會顯示一次。
-Hint::page::problem_detail: 這是題目詳情頁面。你可點擊右側“進入在線編程模式"開始編寫你的程式碼。
-Hint::page::problem_files: 你可以將檔案或壓縮包拖拽至對應區域來上傳檔案。點擊檔案名在線編輯或按住 Ctrl 後點擊檔案名下載單個檔案。
+Hint::page::problem_detail: 這是題目詳情頁面。你可點擊右側“進入在線 Coding 模式"開始編寫你的程式碼。
+Hint::page::problem_files: 你可以將檔案或壓縮包拖拽至對應區域來上傳檔案。點擊檔案名稱在線編輯或按住 Ctrl 後點擊檔案稱下載單個檔案。
 Hint::page::problem_main: 這是題目列表頁面。你可在頁面右側進行篩選或搜索。
 Hitokoto: 一言
 home_account: 賬戶設定
@@ -472,7 +472,7 @@ In following contests: 在下列比賽中
 In following homework: 在以下作業中
 In following training plans: 在下列訓練計劃中
 In Progress: 進行中
-Information: 信息
+Information: 資訊
 Initialize: 初始化
 Inline codes: 行內程式碼
 Inline formulas: 行內公式
@@ -480,8 +480,8 @@ Input: 輸入
 Insert Code: 插入程式碼
 Insert Image: 插入圖像
 Installed Modules: 已安裝的模塊
-Instead of copying the test data directly, the test data of the copied problems will be linked to the test data of the source problems (called the source test data). Thus, the copied problems can observe the changes in the source test data. The permissions of the test data of the copied problems follow the source test data, e.g., you still might not download them but the judges can. By uploading some new test data, the link will be broken and the new test data will be used.: 雖然測試資料不會被複製，但是系統會將題目的測試資料鏈接到原題。因此在原題的數據被改動的時候，複製後的題目的數據也會同時改動。鏈接後的測試資料的權限以原題為準，比如你可能依舊無法下載數據，但是評測機可以。在題目設定頁面中可以通過上傳新的測試資料的方式，這個數據鏈接會被刪除，以後將使用你的新測試資料。
-Introduce must not exceed 500 characters and it will be shown in the list view.: 簡介不能超過 500 個字符，將顯示在列表頁面中。
+Instead of copying the test data directly, the test data of the copied problems will be linked to the test data of the source problems (called the source test data). Thus, the copied problems can observe the changes in the source test data. The permissions of the test data of the copied problems follow the source test data, e.g., you still might not download them but the judges can. By uploading some new test data, the link will be broken and the new test data will be used.: 雖然測試資料不會被複製，但是系統會將題目的測試資料鏈接到原題。因此在原題的測資被改動的時候，複製後的題目的測資也會同時改動。鏈接後的測試資料的權限以原題為準，比如你可能依舊無法下載測資，但是評測機可以。在題目設定頁面中可以通過上傳新的測試資料的方式，這個測資鏈接會被刪除，以後將使用你的新測試資料。
+Introduce must not exceed 500 characters and it will be shown in the list view.: 簡介不能超過 500 個字元，將顯示在列表頁面中。
 Introduce: 簡介
 Invalid password for user {0}.: 用戶 {0} 的密碼錯誤。
 Invalid RegExp: 無效的正則表達式。
@@ -520,7 +520,7 @@ Leave: 離開
 Ledo: 樂多
 Legacy mode: 兼容模式
 Light: 亮色
-Limit user to finish contest within N hours: 限制用戶在N小時內完成比賽
+Limit user to finish contest within N hours: 限制用戶在 N 小時內完成比賽
 Limitations: 限制
 Links: 連結
 List View: 列表視圖
@@ -554,9 +554,9 @@ Manager: 管理
 Mark Green: 標綠
 Mark Red: 標紅
 Mark Yellow: 標黃
-Memory Cost: 內存佔用
-Memory Info: 內存信息
-Memory: 內存
+Memory Cost: 記憶體佔用
+Memory Info: 記憶體資訊
+Memory: 記憶體
 Message {0} not found.: 訊息 {0} 不存在。
 Messages: 訊息
 Method: 方法
@@ -584,7 +584,7 @@ Never expire: 從不過期
 New dataset: 新測試資料
 New Email: 新電子郵件
 New file: 新檔案
-New filename(s): 新檔案名
+New filename(s): 新檔案名稱
 New Password: 新密碼
 New Training Plan: 新訓練計劃
 New: 建立
@@ -602,7 +602,7 @@ No solutions so far...: 目前還沒有題解...
 No submission language available for this problem.: 本題沒有可用的提交語言。
 No Submissions: 沒有提交
 No target available: 無可用目標
-No testcase here: 此處沒有測試點
+No testcase here: 此處沒有測試資料
 No user is allowed to join this domain: 沒有用戶可以自助加入此域
 no_translation_warn: ''
 None: 無
@@ -635,9 +635,9 @@ Ops: 運維
 Or, with automatically filled invitation code: 或者，這是可以自動填寫邀請碼的
 Ordered List: 有序列表
 Original content: 原始內容
-Original filename(s): 原始檔案名
+Original filename(s): 原始檔案名稱
 Original Score: 原始分數
-OS Info: 系統信息
+OS Info: 系統資訊
 Output: 輸出
 Over {0} problems: 超過 {0} 道題目
 Owner: 所有者
@@ -653,7 +653,7 @@ Password reset mail has been sent to your email.: 密碼重置郵件已發送到
 Password: 密碼
 Passwords don't match.: 驗證密碼不匹配。
 Path {0} not found.: 路徑 {0} 不存在。
-Peak Memory: 峰值內存
+Peak Memory: 峰值記憶體
 Peak Time: 峰值時間
 perm_contest: 比賽
 perm_discussion: 討論
@@ -682,14 +682,14 @@ Preference Settings: 偏好設定
 preferredPrefix_hint: 此選項用於重排題號。例如，若題目包中所給的題號分別是 P1001, P1002, P1003，而此選項填寫了 T，則導入後三道題的題號分別為 T1001, T1002 和 T1003。
 Preparing Upload...: 準備上傳...
 Pretest Data: 自測資料
-Pretest Your Code: 使用自定義數據測試
+Pretest Your Code: 使用自定義測資測試
 Pretest: 自測
 Pretest?: 自測?
 Privacy: 隱私
 Privilege: 權限
 Problem {1} not found.: 題目 {1} 不存在。
 Problem Category: 標籤
-Problem Data: 題目數據
+Problem Data: 題目測資
 Problem ID cannot be a pure number. Leave blank if you want to use numberic id.: 題目ID不能為純數字。 若要自動分配數字ID請將此處留空。
 Problem ID List: 題目 ID 列表
 Problem Set: 題庫
@@ -723,8 +723,8 @@ problem.import.output_format: '## 輸出格式'
 problem.import.problem_description: '## 題目描述'
 problem.stats.sort.date: 提交時間
 problem.stats.sort.length: 程式碼長度
-problem.stats.sort.memory: 內存佔用
-problem.stats.sort.time: 運行時間
+problem.stats.sort.memory: 記憶體佔用
+problem.stats.sort.time: 執行時間
 Problems Sets: 題庫
 Problems: 題目
 Processing...: 處理中...
@@ -735,14 +735,14 @@ Public: 公開
 Published at: 發表於
 QQ Group: QQ 群
 QQ Visibility: QQ 可見性
-Quit Scratchpad: 退出在線編程模式
+Quit Scratchpad: 退出在線 coding 模式
 Quote: 引用
 Rank: 排名
 Ranked Users: 排名用戶
 ranking: 排名
 Read all record codes: 讀取所有記錄的程式碼
-Read data of own problems: 讀取自己題目的數據
-Read data of problem: 讀取題目數據
+Read data of own problems: 讀取自己題目的測資
+Read data of problem: 讀取題目測資
 Ready (☆▽☆): 馬上開始 (☆▽☆)
 Ready: 即將開始
 Recent {0} Records: 最近 {0} 條記錄
@@ -771,7 +771,7 @@ Remember me: 記住我
 Remove Selected Group: 移除所選小組
 Remove Selected User: 將所選用戶移出
 Remove Selected: 移除選中
-Remove this data: 移除這組數據
+Remove this data: 移除這組測資
 Remove: 移除
 Rename Selected: 重命名選中
 Repeat Password: 重復密碼
@@ -783,7 +783,7 @@ Reply: 回復
 Report: 舉報
 Require Invitation Code: 需要邀請碼
 required: 必填
-Reset Password or Find Username: 重置密碼或找回用戶名
+Reset Password or Find Username: 重置密碼或找回用戶名稱
 Reset Password: 重置密碼
 Reset: 重置
 Restart: 重新啓動
@@ -797,8 +797,8 @@ RP Algorithm: RP 演算法
 rpDetailText_contest: 比賽
 rpDetailText_problem: 題目
 Rule: 規則
-Run Pretest: 運行自測
-Run: 運行
+Run Pretest: 執行自測
+Run: 執行
 Sample Input: 範例輸入
 Sample Output: 範例輸出
 Save All Changes: 保存所有修改
@@ -827,7 +827,7 @@ Selected roles have been deleted.: 所選角色已刪除。
 Selected users have been removed from the domain.: 所選用戶已從此域中移除。
 Send By: 遞送者
 Send Code after acceptance: 通過題目後發送源程式碼
-Send Message: 發送站內信息
+Send Message: 發送站內訊息
 Send Password Reset Email: 發送密碼重置郵件
 Send Verification Email: 發送驗證郵件
 Send: 發送
@@ -843,8 +843,8 @@ Set time and memory limits: 設定時空限制
 setting_customize: 個性化
 setting_display: 顯示偏好
 setting_domain: 域設定
-setting_info_domain: 個人信息
-setting_info: 個人信息
+setting_info_domain: 個人資訊
+setting_info: 個人資訊
 setting_privacy: 隱私
 setting_usage: 使用偏好
 Settings: 設定
@@ -901,7 +901,7 @@ Switch account: 切換賬戶
 Tags: 標籤
 Task Settings: 任務設定
 tasks_list: 任務列表
-Technical Information: 技術信息
+Technical Information: 技術資訊
 Temporary session: 臨時會話
 Terms of Service: 服務條款
 Test data comes from: 測試資料來自
@@ -913,7 +913,7 @@ The 'default' role applies to ALL REGISTERED USER.: default 角色作用於<b>�
 The contest is a flexible time contest. You need to complete the contest within a specified time after you attended.: 本場比賽採用靈活時間模式，你需要在參加後的指定時間內完成比賽。
 The group to join when user joining the domain.: 加入域時自動加入的小組。
 The homework's deadline is due but in extension. You can still submit for this problem but your score will be penalized.: 作業已超過截止時間，但仍在延期時間內。你提交題目將無法獲得全部分數。
-The invitation code to enter to successfully join the domain. You can only use letters and numbers in the code and it should not be longer than 64 characters.: 加入此域的邀請碼。你只能使用字母和數字，並且不能長於 64 個字符。
+The invitation code to enter to successfully join the domain. You can only use letters and numbers in the code and it should not be longer than 64 characters.: 加入此域的邀請碼。你只能使用字母和數字，並且不能長於 64 個字元。
 The invitation code you provided is invalid.: 你提供的邀請碼無效。
 The link will be expired at {0}: 鏈接將於 {0} 過期
 The role to assign when user joining the domain.: 用戶加入此域時分配的角色。
@@ -931,7 +931,7 @@ This homework is not open and you cannot view problems.: 該作業還未到開�
 This homework is not open.: 該作業還未開放提交。
 This is the current session: 這是當前的會話
 This message will be presented to those whose submissions are accepted.: 這條訊息將會被展示給通過此題的用戶。
-This page is only for pasting code from other sources.: 此頁面僅用於粘貼程式碼。
+This page is only for pasting code from other sources.: 此頁面僅用於貼上程式碼。
 This page needs JavaScript to work.: 這個頁面需要 Javascript。
 This section cannot be challenged at present, so please complete the following sections first: 該章節目前不可挑戰，請先完成以下章節
 This type of files are not allowed to be uploaded.: 不允許上傳這種檔案。
@@ -944,7 +944,7 @@ timeago_locale: zh_TW
 Timezone: 時區
 title: 標題
 Title: 標題
-To get a better editing experience, with code highlighting and test runs, please go back to the problem detail page and use 'Open Scratchpad' button.: 為了獲得更好的編輯體驗，包括程式碼高亮和測試運行功能，請返回題目詳情頁面並點擊“進入在線編程模式”按鈕。
+To get a better editing experience, with code highlighting and test runs, please go back to the problem detail page and use 'Open Scratchpad' button.: 為了獲得更好的編輯體驗，包括程式碼高亮和測試執行功能，請返回題目詳情頁面並點擊“進入在線 Coding 模式”按鈕。
 To join the domain, users can click the "Join Domain" button on "My Domain" page.: 要加入域，用戶可以點擊“我的域”頁面中的“加入域”按鈕。
 Toggle Pretest Panel: 切換自測面板
 Toggle Preview: 切換預覽
@@ -1010,8 +1010,8 @@ user_register_with_code: 註冊
 user_register: 註冊
 User-defined role: 用戶定義的角色
 User: 用戶
-Username / UID: 用戶名或 UID
-Username: 用戶名
+Username / UID: 用戶名稱或 UID
+Username: 用戶名稱
 Users will have to manually join the domain first before selected roles can be applied.: 用戶需要先手動加入域才能應用此角色分配。
 Users with those roles will be removed from the domain.: 擁有這些角色的用戶將從此域中移除。
 Users: 用戶
