@@ -42,8 +42,8 @@ problem.import.limit_and_hint: '## Limits'
 problem.import.output_format: '## Output Format'
 problem.import.problem_description: '## Description'
 ranking: Ranking
-record_detail: Record Detail
-record_main: Record
+record_detail: Submissions Detail
+record_main: Submissions
 rpDetailText_contest: Contest
 rpDetailText_problem: Problem
 setting_customize: Customize
