@@ -366,9 +366,9 @@ Recent Solutions: 最近題解
 Recent Submissions: 最近提交
 Record {0} not found.: 記錄 {0} 不存在。
 record_detail: 記錄詳情
-record_main: 評測佇列
-Records: 評測記錄
-Refresh Records: 重新整理評測記錄
+record_main: 解題狀態
+Records: 解題狀態
+Refresh Records: 重新整理解題狀態
 Refresh: 重新整理
 Registered at: 註冊於
 Rejudge problems: 重測題目
@@ -483,7 +483,7 @@ title: 標題
 Title: 標題
 To join the domain, users can click the "Join Domain" button on "My Domain" page.: 要加入域，用戶可以點擊“我的域”頁面中的“加入域”按鈕。
 Toggle Pretest Panel: 切換自測面板
-Toggle Records Panel: 切換評測記錄面板
+Toggle Records Panel: 切換解題狀態面板
 Total Score: 總分
 Total Time: 總耗時
 Training requirement is not satisfied.: 不滿足訓練條件。
