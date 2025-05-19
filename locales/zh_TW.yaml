@@ -231,7 +231,7 @@ Invalid user {0} or password.: 使用者 {0} 不存在或密碼錯誤。
 It works!: 它成了！
 judge_playground: 評測遊樂場
 Judged At: 評測時間
-Judging Queue: 評測佇列
+Judging Queue: 解題狀態
 Lang.: 語言
 Language: 語言
 last active at: 最後活動於

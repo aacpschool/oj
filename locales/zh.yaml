@@ -69,7 +69,7 @@ Accepted Problems: 通過的題目
 Accepted Ratio: 通過率
 Accepted: 已通過
 Access Control: 存取控制
-According to the contest rules, you cannot view your submission details at current.: 根據比賽規則，你現在不能查看你的評測記錄詳情。
+According to the contest rules, you cannot view your submission details at current.: 根據比賽規則，你現在不能查看你的解題狀態詳情。
 Account Settings: 賬戶設定
 Action: 動作
 Active Sessions: 活動會話
@@ -619,7 +619,7 @@ Oh, the user doesn't have any contributions!: 啊哦，這個用戶還沒貢獻�
 Oh, the user hasn't created any discussions yet!: 這個用戶還沒有發佈過討論
 Oh, the user hasn't submitted yet!: 這個用戶還沒有交過題 _(:зゝ∠)_
 Oh, there are no tasks that match the filter!: 喔，目前沒有符合過濾條件的任務。
-Oh, there is no submission!: 喔，還沒有評測記錄呢！
+Oh, there is no submission!: 喔，還沒有解題狀態呢！
 Oh, there is no task in the queue!: 喔，隊列中目前沒有任務。
 Ok: 確定
 Only A-Z, a-z, 0-9 and _ are accepted: 只接受 A-Z, a-z, 0-9 和 _
@@ -754,10 +754,10 @@ Recently Created Discussions: 最近建立的討論
 Recommended: 推薦
 Record {0} not found.: 記錄 {0} 不存在。
 record_detail: 記錄詳情
-record_main: 評測記錄
-Records: 評測記錄
+record_main: 解題狀態
+Records: 解題狀態
 Reference link copied to clipboard!: 引用鏈接已複製到剪貼板。
-Refresh Records: 刷新評測記錄
+Refresh Records: 刷新解題狀態
 Refresh: 刷新
 RegExp supported, quote with "/": 支持正則表達式，使用 "/" 包裹。
 Registered at: 註冊於
@@ -948,7 +948,7 @@ To get a better editing experience, with code highlighting and test runs, please
 To join the domain, users can click the "Join Domain" button on "My Domain" page.: 要加入域，用戶可以點擊“我的域”頁面中的“加入域”按鈕。
 Toggle Pretest Panel: 切換自測面板
 Toggle Preview: 切換預覽
-Toggle Records Panel: 切換評測記錄面板
+Toggle Records Panel: 切換解題狀態面板
 Tools: 工具
 Total Score: 總分數
 Total Time (Seconds): 總耗時 (秒)
