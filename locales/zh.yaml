@@ -433,7 +433,7 @@ Hint::icon::testdata: <a href="https://hydro.js.org/docs/user/testdata/" target=
 Hint::page::main: 歡迎來到 Hydro！ 你可在右上角註冊或登錄。此類提示僅會顯示一次。
 Hint::page::problem_detail: 這是題目詳情頁面。你可點擊右側“進入在線 Coding 模式"開始編寫你的程式碼。
 Hint::page::problem_files: 你可以將檔案或壓縮包拖拽至對應區域來上傳檔案。點擊檔案名稱在線編輯或按住 Ctrl 後點擊檔案稱下載單個檔案。
-Hint::page::problem_main: 這是題目列表頁面。你可在頁面右側進行篩選或搜索。
+Hint::page::problem_main: 這是題目列表頁面。你可在頁面右側進行篩選或搜尋。
 Hitokoto: 一言
 home_account: 賬戶設定
 home_domain_account: 當前域的設定
@@ -810,7 +810,7 @@ Scoreboard (Hidden): 成績表 (隱藏)
 Scoreboard: 成績表
 Scoring method: 評分方式
 Scripts: 腳本
-Search: 搜索
+Search: 搜尋
 Secret (visible to admins): 保密（對管理員可見）
 Secret: 保密
 Section: 章節
