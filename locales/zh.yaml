@@ -190,7 +190,7 @@ Extension Score Penalty: 延期提交扣分規則
 Field {0} or {1} validation failed.: 欄位 {0} 或 {1} 驗證失敗。
 Field {0} validation failed.: 欄位 {0} 驗證失敗。
 Footer: 頁尾
-Forgot password or username?: 忘記密碼或者使用者名？
+Forgot password or username?: 忘記密碼或者使用者名稱？
 Formula blocks: 公式區塊
 Gender Visibility: 性別可見性
 Gender: 性別
@@ -510,8 +510,8 @@ user_lostpass: 忘記密碼
 user_register: 註冊
 User-defined role: 使用者定義的角色
 User: 使用者
-Username / UID: 使用者名或 UID
-Username: 使用者名
+Username / UID: 使用者名稱或 UID
+Username: 使用者名稱
 Users will have to manually join the domain first before selected roles can be applied.: 用戶需要先手動加入域才能應用此角色分配。
 Users with those roles will be removed from the domain.: 擁有這些角色的使用者將從此域中移除。
 Users: 使用者
